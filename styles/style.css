@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body, #wrapper { height: 100%; }
+
+#wrap{
+	padding-bottom: 100px;
+}
+
+header{
+	height: 100px;
+	width: 100%;
+	border-bottom: 1px solid black;
+}
+#logo img{
+	height: 100px;
+}
+
+#content{
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+nav{
+	border: 1px solid black;
+	border-radius: 7px;
+	background-color: green;
+	width: 100%;
+}
+
+footer { 
+    position: relative;
+    margin-top: -100px; /* negative value of footer height */
+    height: 100px;
+    clear:both;
+	border-top: 1px solid black;
+} 
+
+
+/* CLEAR FIX*/
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix { display: block;}
+/* End hide from IE-mac */
